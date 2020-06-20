@@ -18,10 +18,10 @@ $Light-Gray: hsl(0, 0%, 75%);
 
 //Typography
 
-//Headings, Call-to-actions, Header Navigation
+//Headings, Call-to-actions, Header Navigation => Raleway
 //Weights: 400, 700
 
-//Body
+//Body => Open Sans
 //Weights: 400
 
 * {
@@ -30,4 +30,28 @@ $Light-Gray: hsl(0, 0%, 75%);
     box-sizing: border-box;
 }
 
-body {}
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+    header {
+        .container {
+            padding: 50px 75px;
+            font-family: 'Raleway', sans-serif;
+            
+            img {
+                height: 35px;     
+            }
+            
+            ul {
+                float: right;
+
+                li {
+                    display: inline;
+                    text-decoration: none;
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+}

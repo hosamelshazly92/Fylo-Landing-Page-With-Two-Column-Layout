@@ -4,4 +4,24 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+body header .container {
+  padding: 50px 75px;
+  font-family: "Raleway", sans-serif;
+}
+body header .container img {
+  height: 35px;
+}
+body header .container ul {
+  float: right;
+}
+body header .container ul li {
+  display: inline;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
 /*# sourceMappingURL=compiled.css.map */
