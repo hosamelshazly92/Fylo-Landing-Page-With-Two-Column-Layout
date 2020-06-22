@@ -1,5 +1,10 @@
-body footer .section-3 .container, body main .section-2 .bg .container, body main .section-1 .container, body header .container {
+body footer .section-4 .container, body footer .section-3 .container, body main .section-2 .bg .container, body main .section-1 .container, body header .container {
   padding: 50px 75px;
+}
+
+body footer .section-4 .container .width .fourth, body footer .section-4 .container .width .third, body footer .section-4 .container .width .second, body footer .section-4 .container .width .first {
+  width: 25%;
+  float: left;
 }
 
 * {
@@ -75,7 +80,7 @@ body main .section-1 .container .left button {
 }
 body main .section-2 {
   clear: both;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 body main .section-2 .curve {
   background-image: url(./images/bg-curve-desktop.svg);
@@ -205,6 +210,63 @@ body footer .section-3 .container .right button {
   border: none;
   font-weight: 700;
   box-shadow: 0.1px 0.1px 1px #070439, 5px 5px 20px #585989;
+}
+body footer .section-4 {
+  clear: both;
+  background-color: #070439;
+  padding: 50px 0px;
+  overflow: hidden;
+}
+body footer .section-4 .container {
+  overflow: hidden;
+}
+body footer .section-4 .container .logo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+body footer .section-4 .container .logo img {
+  height: 35px;
+  display: block;
+}
+body footer .section-4 .container .width .first div img {
+  height: 15px;
+  margin-right: 10px;
+  display: inline-block;
+}
+body footer .section-4 .container .width .first div p {
+  color: #f6f6fe;
+  display: inline-block;
+}
+body footer .section-4 .container .width .second {
+  color: #f6f6fe;
+}
+body footer .section-4 .container .width .second ul li {
+  list-style-type: none;
+  margin-left: 50%;
+}
+body footer .section-4 .container .width .third {
+  color: #f6f6fe;
+}
+body footer .section-4 .container .width .third ul li {
+  list-style-type: none;
+  margin-left: 25%;
+}
+body footer .section-4 .container .width .fourth ul {
+  margin-left: 25%;
+}
+body footer .section-4 .container .width .fourth ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #f6f6fe;
+  border-radius: 100%;
+  padding: 5px;
+  text-align: center;
+  line-height: 100%;
+}
+body footer .section-4 .container .width .fourth ul li img {
+  height: 20px;
 }
 
 /*# sourceMappingURL=compiled.css.map */
