@@ -26,7 +26,6 @@ $Light-Gray: hsl(0, 0%, 75%);
 
 %container {
     padding: 50px 75px;
-    font-family: 'Raleway', sans-serif;
 }
 
 * {
@@ -66,6 +65,7 @@ body {
             .container {
                 @extend %container;
                 clear: both;
+                overflow: hidden;
 
                 .right {
                     float: right;
@@ -79,11 +79,13 @@ body {
                 .left {
                     float: left;
                     width: 60%;
-                    padding: 35px 30px;
+                    padding: 35px 30px 35px 0px;
 
                     h1 {
                         font-size: 1.6rem;
                         line-height: 1.5;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 700;
                     }
 
                     p {
@@ -109,7 +111,7 @@ body {
                     button {
                         height: 30px;
                         width: 35%;
-                        color: #fff;
+                        color: $Light-Grayish-Blue;
                         background-color: $Bright-Blue;
                         border-radius: 4px;
                         border: none;
@@ -144,22 +146,24 @@ body {
 
                         img {
                             width: 100%;
-                            margin-top: 150px;
+                            margin-top: 100px;
                         }
                     }
 
                     .left {
                         float: left;
                         width: 60%;
-                        padding: 35px 30px;
+                        padding: 35px 30px 35px 0px;
 
                         h1 {
                             font-size: 1.6rem;
                             line-height: 1.5;
+                            font-family: 'Raleway', sans-serif;
+                            font-weight: 700;
                         }
 
                         p {
-                            margin-top: 15px;
+                            margin-top: 10px;
                             line-height: 1.5;
                             font-weight: 400;
                         }
@@ -177,20 +181,21 @@ body {
 
                         .slide {
                             background-color: #fff;
-                            padding: 10px 20px;
+                            padding: 15px 20px;
                             overflow: hidden;
-                            margin-top: 25px;
+                            margin-top: 20px;
                             width: 70%;
                             border-radius: 5px;
-                            box-shadow: 2px 2px 10px $Light-Gray;  
+                            box-shadow: 2px 2px 10px $Light-Gray;
 
-                            img {
+                            .quote {
                                 height: 10px;
                             }
 
-                            p {
+                            .main-para {
                                 font-weight: 400;
-                                line-height: 1.8;
+                                line-height: 1.5;
+                                margin-top: 1px;
                             }
 
                             div {
@@ -215,6 +220,72 @@ body {
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .section-3 {
+            clear: both;
+            background-color: $Desaturated-Blue;
+            overflow: hidden;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            .container {
+                @extend %container;
+                overflow: hidden;
+
+                .left {
+                    float: left;
+                    width: 60%;
+
+                    h1 {
+                        color: $Light-Grayish-Blue;
+                        margin-bottom: 15px;
+                        font-family: 'Raleway', sans-serif; 
+                        font-weight: 700;
+                        font-size: 1.4rem;
+                    }
+
+                    p {
+                        color: $Light-Grayish-Blue;
+                        width: 70%;
+                    }
+                }
+
+                .right {
+                    float: right;
+                    width: 40%;
+
+                    input {
+                        margin: 5px 0px;
+                        height: 30px;
+                        width: 100%;
+                        border: 1px solid $Desaturated-Blue;
+                        border-radius: 4px;
+                        padding: 5px;
+                        box-shadow: 0.1px 0.1px 1px $Very-Dark-Blue,
+                            5px 5px 20px $Desaturated-Blue;
+
+                        &::placeholder {
+                            color: $Light-Gray;
+                        }
+                    }
+
+                    button {
+                        margin: 5px 0px;
+                        height: 30px;
+                        width: 150px;
+                        color: $Light-Grayish-Blue;
+                        background-color: $Bright-Blue;
+                        border-radius: 4px;
+                        border: none;
+                        font-weight: 700;
+                        box-shadow: 0.1px 0.1px 1px $Very-Dark-Blue,
+                            5px 5px 20px $Desaturated-Blue;
                     }
                 }
             }
