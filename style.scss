@@ -97,6 +97,7 @@ body {
 
                     p {
                         margin-top: 15px;
+                        font-size: 1rem;
                         line-height: 1.5;
                         font-weight: 400;
                     }
@@ -174,6 +175,7 @@ body {
 
                         p {
                             margin-top: 10px;
+                            font-size: 1rem;
                             line-height: 1.5;
                             font-weight: 400;
                         }
@@ -204,6 +206,7 @@ body {
 
                             .main-para {
                                 font-weight: 400;
+                                font-size: 0.8rem;
                                 line-height: 2;
                                 margin-top: 1px;
                             }
@@ -223,10 +226,12 @@ body {
                                 p:first-of-type {
                                     margin: 20px 0px 0px 20px;
                                     font-weight: 700;
+                                    font-size: 0.8rem;
                                 }
 
                                 p:last-of-type {
                                     margin: 0px 0px 0px 20px;
+                                    font-size: 0.8rem;
                                 }
                             }
                         }
@@ -257,12 +262,13 @@ body {
                         margin-bottom: 15px;
                         font-family: 'Raleway', sans-serif;
                         font-weight: 700;
-                        font-size: 1.4rem;
+                        font-size: 1.5rem;
                     }
 
                     p {
                         color: $Light-Grayish-Blue;
                         width: 70%;
+                        font-size: 1rem;
                     }
                 }
 
@@ -414,28 +420,20 @@ body {
         main {
             .section-1 {
                 .container {
-                    @extend %container;
-                    clear: both;
-                    overflow: hidden;
-                    padding-top: 0px;
+                    padding: 50px 25px;
 
                     .right {
-                        float: right;
-                        width: 50%;
-
-                        img {
-                            width: 100%;
-                        }
+                        width: 100%;
                     }
 
                     .left {
-                        float: left;
-                        width: 50%;
-                        padding: 110px 100px 0px 0px;
-
+                        width: 100%;
+                        text-align: center;
+                        padding-right: 0;
+                        
                         h1 {
                             font-size: 1.8rem;
-                            line-height: 1.5;
+                            line-height: 1.2;
                             font-family: 'Raleway', sans-serif;
                             font-weight: 700;
                         }
@@ -448,9 +446,8 @@ body {
 
                         input {
                             margin-top: 25px;
-                            margin-right: 10px;
                             height: 40px;
-                            width: 60%;
+                            width: 100%;
                             border: 1px solid $Desaturated-Blue;
                             border-radius: 5px;
                             padding: 5px;
@@ -463,8 +460,9 @@ body {
                         }
 
                         button {
+                            margin-top: 25px;
                             height: 40px;
-                            width: 35%;
+                            width: 100%;
                             color: $Light-Grayish-Blue;
                             background-color: $Bright-Blue;
                             border-radius: 5px;
