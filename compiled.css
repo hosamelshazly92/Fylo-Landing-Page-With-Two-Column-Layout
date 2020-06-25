@@ -401,63 +401,47 @@ body footer .section-4 .container .width .fourth ul li img {
   body footer .section-3 .container .right button {
     width: 100%;
   }
-  body footer .section-4 {
-    clear: both;
-    background-color: #070439;
-    padding: 50px 0px;
-    overflow: hidden;
-  }
   body footer .section-4 .container {
-    overflow: hidden;
-  }
-  body footer .section-4 .container .logo {
-    width: 100%;
-    margin-bottom: 20px;
+    padding: 50px 25px;
   }
   body footer .section-4 .container .logo img {
-    height: 35px;
-    display: block;
+    height: 50px;
+  }
+  body footer .section-4 .container .width .first {
+    width: 100%;
   }
   body footer .section-4 .container .width .first div img {
+    width: 20px;
     height: 15px;
+    margin-top: 15px;
     margin-right: 10px;
-    display: inline-block;
   }
   body footer .section-4 .container .width .first div p {
-    color: #f6f6fe;
-    display: inline-block;
+    font-size: 0.8rem;
   }
   body footer .section-4 .container .width .second {
-    color: #f6f6fe;
+    width: 100%;
+    margin-top: 25px;
   }
   body footer .section-4 .container .width .second ul li {
-    list-style-type: none;
-    margin-left: 50%;
+    font-size: 0.8rem;
+    margin: 10px 0;
   }
   body footer .section-4 .container .width .third {
-    color: #f6f6fe;
+    width: 100%;
+    margin-top: 25px;
   }
   body footer .section-4 .container .width .third ul li {
-    list-style-type: none;
-    margin-left: 25%;
+    font-size: 0.8rem;
+    margin: 10px 0;
+  }
+  body footer .section-4 .container .width .fourth {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
   }
   body footer .section-4 .container .width .fourth ul {
-    margin-left: 25%;
-  }
-  body footer .section-4 .container .width .fourth ul li {
-    list-style-type: none;
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    border: 1px solid #f6f6fe;
-    border-radius: 100%;
-    padding: 5px;
-    text-align: center;
-    line-height: 100%;
-    margin-right: 10px;
-  }
-  body footer .section-4 .container .width .fourth ul li img {
-    height: 20px;
+    margin-left: 0;
   }
 }
 
